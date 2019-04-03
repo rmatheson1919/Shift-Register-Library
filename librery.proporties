@@ -1,7 +1,0 @@
-name=Shift Register Controler
-version=1.0.0
-author=Ryan Matheson
-maintainer=Ryan Matheson <ryan.matheson1819@gmail.com>
-sentence=Used to control the SN74HC595 shift register.
-paragraph=Use this librery to contol the SN74HC595 shift register in both 3 pin and 5 pin modes. 
-category=Signal Input/Output
