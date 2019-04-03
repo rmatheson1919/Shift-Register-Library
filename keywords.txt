@@ -1,0 +1,10 @@
+SN74HC595_5pin	KEYWORD1
+SN74HC595_3pin	KEYWORD1
+display KEYWORD2
+writeReg	KEYWORD2
+displayReg	KEYWORD2
+clearReg	KEYWORD2
+clearDisplay	KEYWORD2
+enable	KEYWORD2
+disable	KEYWORD2
+regValue	KEYWORD2

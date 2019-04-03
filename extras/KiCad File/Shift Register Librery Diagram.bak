@@ -1,0 +1,154 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:My Librery
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ArduinoUno U?
+U 1 1 5CA4DE61
+P 2550 2800
+F 0 "U?" H 2550 2800 60  0000 C CNN
+F 1 "ArduinoUno" H 2550 2800 60  0000 C CNN
+F 2 "" H 2550 2800 60  0001 C CNN
+F 3 "" H 2550 2800 60  0001 C CNN
+	1    2550 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L SN74HC595 U?
+U 1 1 5CA4DEDE
+P 4600 2200
+F 0 "U?" H 4600 2200 39  0001 C CNN
+F 1 "SN74HC595" H 4425 2175 28  0000 C CNB
+F 2 "" H 4600 2200 394 0001 C CNN
+F 3 "" H 4600 2200 394 0001 C CNN
+	1    4600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2550 1375 2550
+Wire Wire Line
+	1375 2550 1375 1000
+Wire Wire Line
+	1375 1000 4350 1000
+Wire Wire Line
+	4350 1000 4350 1925
+Wire Wire Line
+	1500 2650 1375 2650
+Wire Wire Line
+	1375 2650 1375 3850
+Wire Wire Line
+	1375 3850 4875 3850
+Wire Wire Line
+	4875 3850 4875 2475
+Wire Wire Line
+	4500 1925 4500 1800
+Wire Wire Line
+	4500 1800 3225 1800
+Wire Wire Line
+	3225 1800 3225 2300
+Wire Wire Line
+	3225 2300 3100 2300
+Wire Wire Line
+	4575 1925 4575 1725
+Wire Wire Line
+	4575 1725 3275 1725
+Wire Wire Line
+	3275 1725 3275 2400
+Wire Wire Line
+	3275 2400 3100 2400
+Wire Wire Line
+	4650 1925 4650 1675
+Wire Wire Line
+	4650 1675 3325 1675
+Wire Wire Line
+	3325 1675 3325 2500
+Wire Wire Line
+	3325 2500 3100 2500
+Wire Wire Line
+	4725 1925 4725 1650
+Wire Wire Line
+	4725 1650 3375 1650
+Wire Wire Line
+	3375 1650 3375 2600
+Wire Wire Line
+	3375 2600 3100 2600
+Wire Wire Line
+	4800 1925 4800 1600
+Wire Wire Line
+	4800 1600 3475 1600
+Wire Wire Line
+	3475 1600 3475 2700
+Wire Wire Line
+	3475 2700 3100 2700
+Wire Wire Line
+	4425 1875 4425 1950
+Wire Wire Line
+	3575 1875 4425 1875
+Wire Wire Line
+	3575 1875 3575 2500
+Wire Wire Line
+	4350 2475 3725 2475
+Wire Wire Line
+	4425 2475 4425 2575
+Wire Wire Line
+	4425 2575 3875 2575
+Wire Wire Line
+	4500 2475 4500 2700
+Wire Wire Line
+	4500 2700 4075 2700
+Wire Wire Line
+	4575 2475 4575 2825
+Wire Wire Line
+	4575 2825 4275 2825
+Wire Wire Line
+	4650 2475 4650 2975
+Wire Wire Line
+	4650 2975 4475 2975
+Wire Wire Line
+	4725 2475 4725 3075
+Wire Wire Line
+	4725 3075 4625 3075
+Wire Wire Line
+	4800 2475 4800 3175
+$EndSCHEMATC

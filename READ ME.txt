@@ -1,0 +1,72 @@
+=======================================================
+Arduino Library for controling SN74HC595 shift register
+=======================================================
+
+Author - Ryan Matheson
+Contact - <ryan.matheson1819@gmail.com>
+Version - 1.0.
+Created - 4/2/19
+Last Modified - 4/3/19
+
+=======================================================
+
+Functions
+--------------------
+3-pin and 5-pin mode
+____________________
+display()
+Parameters - 1 bit (1/0)
+Function - shifts this bit into first output, shifts all other bits down.
+syntax - *name of register here*.display(1/0)
+____________________
+writeReg()
+Parameters - 1 bit (1/0)
+Function - shifts this bit into internal memory, shift all other bits down.
+syntax - *name of register here*.writeReg(1/0)
+____________________
+clearReg()
+Parameters - none
+Function - clears internal register
+syntax - *name of register here*.ClearReg()
+____________________
+ClearDisplay()
+Parameters - none
+Function - clears output pins and internal register
+syntax - *name of register here*.ClearDisplay()
+-------------------------------------------------------
+5-pin mode
+____________________
+SN74HC595_5pin
+Parameters - IN THIS ORDER (Number of Shift Registers, serPin, oePin, rclkPin, srclkPin, srclrPin) must be int 
+Functions - creates a new object shift register object *Goes befor setup() function*
+syntax - SN74HC595_5pin *name of Register here*(Number of Shift Registers, serPin, oePin, rclkPin, srclkPin, srclrPin)
+____________________
+enable()
+Parameters - none
+Functions - enables the output pins
+syntax - syntax - *name of register here*.enable()
+____________________
+disable()
+Parameters - none
+Functions - diables  the output pins
+syntax - syntax - *name of register here*.disable()
+------------------------------------------------------
+3-pinMode
+____________________
+SN74HC595_3pin
+Parameters - IN THIS ORDER (Number of Shift Registers, serPin, rclkPin, srclkPin,) must be int 
+Functions - creates a new object shift register object *Goes befor setup() function*
+syntax - SN74HC595_5pin *name of Register here*(Number of Shift Registers, serPin, oePin, rclkPin, srclkPin, srclrPin)
+
+
+
+
+
+
+
+
+
+
+
+
+

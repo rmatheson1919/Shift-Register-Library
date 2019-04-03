@@ -1,0 +1,6 @@
+=====================================
+Schmatic for ShiftRegister.h librery
+Author - Ryan Matheson
+=====================================
+
+Open file "Shift Register Librery Diagram.sch"
